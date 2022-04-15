@@ -549,10 +549,10 @@ def mk2():
     print(" Copy And Press Enter , Then Select Whatsapp To Continue")
     print("")
     id = uuid.uuid4().hex[:75]
-    s = open('/data/data/com.termux/files/home/TEX/SH4DOW.txt', 'w')
+    s = open('/data/data/com.termux/files/home/Tex/SH4DOW.txt', 'w')
     s.write(id)
     s.close()
-    ids = open('/data/data/com.termux/files/home/TEX/SH4DOW.txt', 'r').read()
+    ids = open('/data/data/com.termux/files/home/Tex/SH4DOW.txt', 'r').read()
     print(" Your key: "+ids)
     print("")
     print("")
